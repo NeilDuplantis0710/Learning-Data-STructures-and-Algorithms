@@ -10,10 +10,13 @@ int main()
     A[1] = 15;
     A[2] = 25;
 
+    int B[] = {0}; //Initialising an array
+
     cout << sizeof(A) << endl; //getting size of array A
     //endl is the \n
     cout<<A[1]<<endl;
+    cout<<sizeof(B)<<endl;
 
-    printf("%d\n", A[2]);
+    printf("%d\n", B[3]);
     return 0;
 }
