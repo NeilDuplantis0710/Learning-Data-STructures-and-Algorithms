@@ -131,4 +131,5 @@ int main(){
     return 0;
 
     // The answer is yes!, we can use different types of format parameters. The compiler will make it as inline function. The reason is that the function is small and simple, and the compiler can easily determine that inlining it would be beneficial for performance. In this case, the function has a mix of call by address and call by reference parameters, but since the function is small and does not have any complex logic, the compiler can still inline it.
+
 }
